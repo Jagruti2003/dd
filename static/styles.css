@@ -1,0 +1,86 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+/* Custom styles for C$50 Finance */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.table {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+}
+
+.table thead th {
+    background-color: #f1f3f5;
+}
+
+main.container-fluid {
+    max-width: 960px;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+/* Custom styles for specific pages */
+.quote-result {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.colorful-finance {
+    background: linear-gradient(to right, #007bff, #dc3545, #ffc107, #28a745);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
